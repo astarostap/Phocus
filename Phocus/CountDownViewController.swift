@@ -23,6 +23,7 @@ class CountDownViewController: UIViewController {
     func setupGame() {
         CountdownLabel.text = "Time: " + String(seconds)
         timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "subtractTime", userInfo: nil, repeats: true)
+        print("hello")
     }
 
     func subtractTime() {
