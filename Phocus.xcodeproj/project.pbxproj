@@ -13,6 +13,12 @@
 		08A3B2EB1BF0618600E52E4A /* Phocus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2E91BF0618600E52E4A /* Phocus.xcdatamodeld */; };
 		08A3B2ED1BF0618600E52E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A3B2EC1BF0618600E52E4A /* Assets.xcassets */; };
 		08A3B2F01BF0618600E52E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A3B2EE1BF0618600E52E4A /* LaunchScreen.storyboard */; };
+		08A3B2F81BF0626600E52E4A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2F71BF0626600E52E4A /* Data.swift */; settings = {ASSET_TAGS = (); }; };
+		08A3B2FA1BF06D4A00E52E4A /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2F91BF06D4A00E52E4A /* FeedTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		08A3B2FC1BF070F400E52E4A /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2FB1BF070F400E52E4A /* FeedCell.swift */; settings = {ASSET_TAGS = (); }; };
+		08A3B2FE1BF1247600E52E4A /* StartPhocusUiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2FD1BF1247600E52E4A /* StartPhocusUiViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		08A3B3001BF12A1400E52E4A /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2FF1BF12A1400E52E4A /* TakePhotoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		08A3B3021BF1C2CE00E52E4A /* CountDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B3011BF1C2CE00E52E4A /* CountDownViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		08A3B2EC1BF0618600E52E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08A3B2EF1BF0618600E52E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08A3B2F11BF0618600E52E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A3B2F71BF0626600E52E4A /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		08A3B2F91BF06D4A00E52E4A /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		08A3B2FB1BF070F400E52E4A /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		08A3B2FD1BF1247600E52E4A /* StartPhocusUiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartPhocusUiViewController.swift; sourceTree = "<group>"; };
+		08A3B2FF1BF12A1400E52E4A /* TakePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePhotoViewController.swift; sourceTree = "<group>"; };
+		08A3B3011BF1C2CE00E52E4A /* CountDownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountDownViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +71,16 @@
 				08A3B2E21BF0618600E52E4A /* AppDelegate.swift */,
 				08A3B2E41BF0618600E52E4A /* ViewController.swift */,
 				08A3B2E61BF0618600E52E4A /* Main.storyboard */,
+				08A3B3011BF1C2CE00E52E4A /* CountDownViewController.swift */,
+				08A3B2FF1BF12A1400E52E4A /* TakePhotoViewController.swift */,
+				08A3B2FD1BF1247600E52E4A /* StartPhocusUiViewController.swift */,
+				08A3B2F91BF06D4A00E52E4A /* FeedTableViewController.swift */,
+				08A3B2FB1BF070F400E52E4A /* FeedCell.swift */,
 				08A3B2EC1BF0618600E52E4A /* Assets.xcassets */,
 				08A3B2EE1BF0618600E52E4A /* LaunchScreen.storyboard */,
 				08A3B2F11BF0618600E52E4A /* Info.plist */,
 				08A3B2E91BF0618600E52E4A /* Phocus.xcdatamodeld */,
+				08A3B2F71BF0626600E52E4A /* Data.swift */,
 			);
 			path = Phocus;
 			sourceTree = "<group>";
@@ -140,7 +158,13 @@
 			files = (
 				08A3B2EB1BF0618600E52E4A /* Phocus.xcdatamodeld in Sources */,
 				08A3B2E51BF0618600E52E4A /* ViewController.swift in Sources */,
+				08A3B2FA1BF06D4A00E52E4A /* FeedTableViewController.swift in Sources */,
 				08A3B2E31BF0618600E52E4A /* AppDelegate.swift in Sources */,
+				08A3B2F81BF0626600E52E4A /* Data.swift in Sources */,
+				08A3B2FC1BF070F400E52E4A /* FeedCell.swift in Sources */,
+				08A3B3021BF1C2CE00E52E4A /* CountDownViewController.swift in Sources */,
+				08A3B3001BF12A1400E52E4A /* TakePhotoViewController.swift in Sources */,
+				08A3B2FE1BF1247600E52E4A /* StartPhocusUiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +281,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs147.Phocus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -268,6 +293,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs147.Phocus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -290,6 +316,7 @@
 				08A3B2F61BF0618600E52E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
