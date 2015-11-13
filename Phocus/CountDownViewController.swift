@@ -17,7 +17,7 @@ class CountDownViewController: UIViewController {
         self.setupGame()
     }
 
-    var seconds = 30
+    var seconds = 5
     var timer: NSTimer?
     
     func setupGame() {
