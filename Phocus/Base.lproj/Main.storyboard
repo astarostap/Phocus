@@ -208,22 +208,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ogz-I0-WC1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ogz-I0-WC1">
                                 <rect key="frame" x="0.0" y="115" width="600" height="183"/>
                                 <animations/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shU-Qq-zlu">
-                                <rect key="frame" x="275" y="513" width="48" height="30"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Cancel">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="coK-C8-jlq" kind="show" id="Wx5-4H-3El"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you can't Phocus your friends will all see your picture" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mt8-Kt-IF7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="If you can't Phocus your friends will all see your picture" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mt8-Kt-IF7">
                                 <rect key="frame" x="0.0" y="72" width="600" height="35"/>
                                 <animations/>
                                 <constraints>
@@ -233,7 +222,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgU-Ww-6LC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgU-Ww-6LC">
                                 <rect key="frame" x="275" y="306" width="49" height="63"/>
                                 <animations/>
                                 <constraints>
@@ -243,27 +232,40 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shU-Qq-zlu">
+                                <rect key="frame" x="254" y="480" width="93" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="93" id="FC8-ju-TZg"/>
+                                </constraints>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Fvg-3c-m9O" kind="presentation" modalTransitionStyle="flipHorizontal" id="rCk-cb-fCt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="XvF-Vw-O2J" firstAttribute="top" secondItem="shU-Qq-zlu" secondAttribute="bottom" constant="8" symbolic="YES" id="23v-ls-qe0"/>
                             <constraint firstItem="mt8-Kt-IF7" firstAttribute="trailing" secondItem="Ogz-I0-WC1" secondAttribute="trailing" id="2fC-cg-RJO"/>
                             <constraint firstItem="mt8-Kt-IF7" firstAttribute="top" secondItem="zNt-2G-cvb" secondAttribute="bottom" constant="8" symbolic="YES" id="3af-Wp-6iT"/>
                             <constraint firstAttribute="trailing" secondItem="mt8-Kt-IF7" secondAttribute="trailing" id="GEI-2e-aA9"/>
                             <constraint firstItem="GgU-Ww-6LC" firstAttribute="top" secondItem="Ogz-I0-WC1" secondAttribute="bottom" constant="8" symbolic="YES" id="GQS-Tb-hYf"/>
                             <constraint firstItem="Ogz-I0-WC1" firstAttribute="leading" secondItem="RMR-Tm-uFo" secondAttribute="leading" id="JW1-dI-Zxh"/>
                             <constraint firstItem="Ogz-I0-WC1" firstAttribute="top" secondItem="mt8-Kt-IF7" secondAttribute="bottom" constant="8" symbolic="YES" id="SAg-ZQ-Sgv"/>
-                            <constraint firstItem="shU-Qq-zlu" firstAttribute="centerX" secondItem="GgU-Ww-6LC" secondAttribute="centerX" id="Tx9-3n-Pk1"/>
                             <constraint firstItem="XvF-Vw-O2J" firstAttribute="top" secondItem="Ogz-I0-WC1" secondAttribute="bottom" constant="253" id="eN5-3h-OV3"/>
                             <constraint firstItem="GgU-Ww-6LC" firstAttribute="centerX" secondItem="Ogz-I0-WC1" secondAttribute="centerX" id="hpq-9B-jDS"/>
-                            <constraint firstItem="shU-Qq-zlu" firstAttribute="leading" secondItem="GgU-Ww-6LC" secondAttribute="leading" id="k33-oI-24U"/>
+                            <constraint firstItem="shU-Qq-zlu" firstAttribute="centerX" secondItem="Ogz-I0-WC1" secondAttribute="centerX" id="nbk-I2-8Tm"/>
+                            <constraint firstItem="XvF-Vw-O2J" firstAttribute="top" secondItem="shU-Qq-zlu" secondAttribute="bottom" constant="90" id="nuV-5s-uiB"/>
                             <constraint firstItem="mt8-Kt-IF7" firstAttribute="leading" secondItem="Ogz-I0-WC1" secondAttribute="leading" id="xuj-hW-rLo"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="CountdownLabel" destination="GgU-Ww-6LC" id="qWr-4i-mlH"/>
-                        <segue destination="coK-C8-jlq" kind="show" identifier="StartPhocusSession" id="cEZ-gY-pqv"/>
+                        <segue destination="coK-C8-jlq" kind="show" identifier="StartPhocusSession" id="JlN-0j-TlA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="piG-AY-6RU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -355,6 +357,6 @@
         <image name="StartPhocusBackground" width="604" height="1040"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cEZ-gY-pqv"/>
+        <segue reference="rCk-cb-fCt"/>
     </inferredMetricsTieBreakers>
 </document>
