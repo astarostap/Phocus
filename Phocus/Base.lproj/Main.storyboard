@@ -37,25 +37,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MM/DD/YYYY HH:MM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6n-cd-ZOG">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="163"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="163" id="Z6d-nF-qx8"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="W2f-v5-Hhi">
-                                <rect key="frame" x="0.0" y="163" width="600" height="216"/>
-                                <animations/>
-                                <date key="date" timeIntervalSinceReferenceDate="468787973.57973301">
-                                    <!--2015-11-09 18:52:53 +0000-->
-                                </date>
-                            </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOx-tS-DTU">
-                                <rect key="frame" x="105" y="441" width="139" height="66"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOx-tS-DTU">
+                                <rect key="frame" x="169" y="384" width="125" height="34"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Solo">
@@ -65,10 +48,42 @@
                                     <segue destination="xqp-Eu-KUx" kind="show" id="Br0-HM-cda"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFz-Wa-qdp">
-                                <rect key="frame" x="327" y="441" width="139" height="66"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Challenge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CzX-m2-Oqb">
+                                <rect key="frame" x="262" y="289" width="77" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="4lv-nd-N7d"/>
+                                    <constraint firstAttribute="width" constant="77" id="NAP-zy-4A4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Npk-RO-aCz">
+                                <rect key="frame" x="169" y="318" width="263" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Bc2-Ek-wng"/>
+                                    <constraint firstAttribute="width" constant="263" id="MRl-h8-Dmf"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Random"/>
+                                    <segment title="From Friends"/>
+                                </segments>
+                            </segmentedControl>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" datePickerMode="countDownTimer" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="W2f-v5-Hhi">
+                                <rect key="frame" x="0.0" y="64" width="600" height="216"/>
+                                <animations/>
+                                <date key="date" timeIntervalSinceReferenceDate="468787973.57973301">
+                                    <!--2015-11-09 18:52:53 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFz-Wa-qdp">
+                                <rect key="frame" x="302" y="384" width="130" height="35"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Oqo-CG-AOY"/>
+                                    <constraint firstAttribute="width" constant="130" id="wR2-GC-D1W"/>
+                                </constraints>
                                 <state key="normal" title="Group">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
@@ -77,24 +92,25 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="rFz-Wa-qdp" firstAttribute="top" secondItem="W2f-v5-Hhi" secondAttribute="bottom" constant="62" id="5Zz-7O-exi"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="rFz-Wa-qdp" secondAttribute="trailing" constant="114" id="70x-t1-hFB"/>
-                            <constraint firstItem="acz-el-pK4" firstAttribute="top" secondItem="tOx-tS-DTU" secondAttribute="bottom" constant="44" id="7HH-fN-zEc"/>
-                            <constraint firstItem="rFz-Wa-qdp" firstAttribute="leading" secondItem="tOx-tS-DTU" secondAttribute="trailing" constant="83" id="EMX-gt-4ka"/>
+                            <constraint firstItem="acz-el-pK4" firstAttribute="top" secondItem="rFz-Wa-qdp" secondAttribute="bottom" constant="132" id="4EW-N0-f7n"/>
+                            <constraint firstItem="CzX-m2-Oqb" firstAttribute="centerY" secondItem="zxq-JU-j7L" secondAttribute="centerY" id="52f-YJ-oN7"/>
+                            <constraint firstItem="Npk-RO-aCz" firstAttribute="top" secondItem="CzX-m2-Oqb" secondAttribute="bottom" constant="8" symbolic="YES" id="DHP-xB-OSy"/>
                             <constraint firstAttribute="trailing" secondItem="W2f-v5-Hhi" secondAttribute="trailing" id="G0c-4B-Rec"/>
-                            <constraint firstItem="W2f-v5-Hhi" firstAttribute="leading" secondItem="v6n-cd-ZOG" secondAttribute="leading" id="Nc3-QI-Imb"/>
-                            <constraint firstItem="acz-el-pK4" firstAttribute="top" secondItem="rFz-Wa-qdp" secondAttribute="bottom" constant="44" id="Scg-28-vFs"/>
-                            <constraint firstItem="v6n-cd-ZOG" firstAttribute="leading" secondItem="zxq-JU-j7L" secondAttribute="leading" id="YUM-FR-GKv"/>
-                            <constraint firstItem="v6n-cd-ZOG" firstAttribute="top" secondItem="zxq-JU-j7L" secondAttribute="top" id="b6M-br-zeI"/>
-                            <constraint firstItem="tOx-tS-DTU" firstAttribute="leading" secondItem="zxq-JU-j7L" secondAttribute="leadingMargin" constant="85" id="bZx-ox-ITW"/>
-                            <constraint firstItem="v6n-cd-ZOG" firstAttribute="trailing" secondItem="W2f-v5-Hhi" secondAttribute="trailing" id="dIg-Y9-FPR"/>
-                            <constraint firstItem="tOx-tS-DTU" firstAttribute="top" secondItem="W2f-v5-Hhi" secondAttribute="bottom" constant="62" id="jYJ-ZD-fkF"/>
+                            <constraint firstItem="Npk-RO-aCz" firstAttribute="centerX" secondItem="CzX-m2-Oqb" secondAttribute="centerX" id="HcI-Cu-VF7"/>
+                            <constraint firstItem="CzX-m2-Oqb" firstAttribute="top" secondItem="W2f-v5-Hhi" secondAttribute="bottom" constant="9" id="UiA-Te-vS8"/>
+                            <constraint firstItem="tOx-tS-DTU" firstAttribute="top" secondItem="rFz-Wa-qdp" secondAttribute="top" id="Ymu-EB-NwF"/>
+                            <constraint firstItem="rFz-Wa-qdp" firstAttribute="top" secondItem="Npk-RO-aCz" secondAttribute="bottom" constant="38" id="gaN-FH-xVX"/>
+                            <constraint firstItem="rFz-Wa-qdp" firstAttribute="trailing" secondItem="Npk-RO-aCz" secondAttribute="trailing" id="gdx-dc-1hQ"/>
+                            <constraint firstItem="CzX-m2-Oqb" firstAttribute="centerX" secondItem="W2f-v5-Hhi" secondAttribute="centerX" id="jCi-YM-JA7"/>
+                            <constraint firstItem="tOx-tS-DTU" firstAttribute="centerY" secondItem="rFz-Wa-qdp" secondAttribute="centerY" id="qCo-66-XMw"/>
+                            <constraint firstItem="tOx-tS-DTU" firstAttribute="leading" secondItem="Npk-RO-aCz" secondAttribute="leading" id="wAp-83-UE7"/>
+                            <constraint firstItem="CzX-m2-Oqb" firstAttribute="centerX" secondItem="zxq-JU-j7L" secondAttribute="centerX" id="wIy-bC-2SO"/>
+                            <constraint firstItem="rFz-Wa-qdp" firstAttribute="leading" secondItem="tOx-tS-DTU" secondAttribute="trailing" constant="8" symbolic="YES" id="xmg-ux-abz"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Start" id="le8-fN-6xb"/>
                     <navigationItem key="navigationItem" id="4VB-KZ-9P2"/>
                     <connections>
-                        <outlet property="dateLabel" destination="v6n-cd-ZOG" id="WAq-Pj-ifA"/>
                         <outlet property="datePicker" destination="W2f-v5-Hhi" id="aDD-wB-txr"/>
                     </connections>
                 </viewController>
@@ -150,7 +166,6 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="ABl-B4-JQJ" id="sVE-pe-4aL"/>
-                        <outlet property="takePhotoButoon" destination="Qo6-OD-kBB" id="G6x-ww-uau"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y1Y-nK-h1c" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -291,10 +306,10 @@
                             <tableViewSection headerTitle="Feed" id="6Q7-3W-pTy">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="Lyh-SF-bvo" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="49.5" width="600" height="83"/>
+                                        <rect key="frame" x="0.0" y="113.5" width="600" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Lyh-SF-bvo" id="95B-fa-Oi1">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="83"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="82.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="female" translatesAutoresizingMaskIntoConstraints="NO" id="1Nx-aE-Sbc">
@@ -326,7 +341,7 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="zeD-Q9-WRf" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="132.5" width="600" height="83"/>
+                                        <rect key="frame" x="0.0" y="196.5" width="600" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zeD-Q9-WRf" id="tgm-DP-bst">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="82.5"/>
@@ -359,7 +374,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="7kK-06-R0B" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="215.5" width="600" height="83"/>
+                                        <rect key="frame" x="0.0" y="279.5" width="600" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7kK-06-R0B" id="Ico-g2-Drb">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="82.5"/>
@@ -392,7 +407,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="Jhf-Iy-bbC" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="298.5" width="600" height="83"/>
+                                        <rect key="frame" x="0.0" y="362.5" width="600" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jhf-Iy-bbC" id="WhS-uy-zQe">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="82.5"/>
@@ -425,7 +440,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="Rty-0a-MZO" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="381.5" width="600" height="83"/>
+                                        <rect key="frame" x="0.0" y="445.5" width="600" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rty-0a-MZO" id="UkG-BY-aXu">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="82.5"/>
@@ -492,6 +507,11 @@
                         <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="selectedIndex">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="ut5-yk-zGH" kind="relationship" relationship="viewControllers" id="gPM-Yh-PC5"/>
                         <segue destination="YZt-2B-Ws5" kind="relationship" relationship="viewControllers" id="XAx-rR-YPT"/>
@@ -509,7 +529,7 @@
         <image name="female" width="3743" height="2807"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="rCk-cb-fCt"/>
+        <segue reference="ezb-7Y-bRE"/>
         <segue reference="lsA-4c-IiC"/>
     </inferredMetricsTieBreakers>
 </document>

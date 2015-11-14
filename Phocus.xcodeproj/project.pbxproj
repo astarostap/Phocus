@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0827B2401BF6758A00615A18 /* LockedScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0827B23F1BF6758A00615A18 /* LockedScreenViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0827B2451BF6B3F800615A18 /* camera.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0827B2441BF6B3F800615A18 /* camera.wav */; settings = {ASSET_TAGS = (); }; };
 		08A3B2E31BF0618600E52E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2E21BF0618600E52E4A /* AppDelegate.swift */; };
 		08A3B2E51BF0618600E52E4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2E41BF0618600E52E4A /* ViewController.swift */; };
 		08A3B2E81BF0618600E52E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A3B2E61BF0618600E52E4A /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		0827B23F1BF6758A00615A18 /* LockedScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockedScreenViewController.swift; sourceTree = "<group>"; };
+		0827B2441BF6B3F800615A18 /* camera.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = camera.wav; path = ../../../Downloads/camera.wav; sourceTree = "<group>"; };
 		08A3B2DF1BF0618600E52E4A /* Phocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A3B2E21BF0618600E52E4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08A3B2E41BF0618600E52E4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0827B2431BF6B3D500615A18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0827B2441BF6B3F800615A18 /* camera.wav */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		08A3B2D61BF0618600E52E4A = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +80,7 @@
 		08A3B2E11BF0618600E52E4A /* Phocus */ = {
 			isa = PBXGroup;
 			children = (
+				0827B2431BF6B3D500615A18 /* Supporting Files */,
 				08A3B2E21BF0618600E52E4A /* AppDelegate.swift */,
 				08A3B2E41BF0618600E52E4A /* ViewController.swift */,
 				08A3B2E61BF0618600E52E4A /* Main.storyboard */,
@@ -149,6 +160,7 @@
 				08A3B2F01BF0618600E52E4A /* LaunchScreen.storyboard in Resources */,
 				08A3B2ED1BF0618600E52E4A /* Assets.xcassets in Resources */,
 				08A3B2E81BF0618600E52E4A /* Main.storyboard in Resources */,
+				0827B2451BF6B3F800615A18 /* camera.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AVFoundation
+import AudioToolbox
 
 class TakePhotoViewController: UIViewController {
 
@@ -22,12 +24,22 @@ class TakePhotoViewController: UIViewController {
     }
     
     @IBOutlet weak var imageView: UIImageView!
-
-    @IBOutlet weak var takePhotoButoon: UIButton!
     
     @IBAction func TakePhoto(sender: UIButton) {
+        var soundPath:NSURL?
+        if let path = NSBundle.mainBundle().pathForResource("camera", ofType: "wav") {
+            soundPath = NSURL(fileURLWithPath: path)
+            do {
+                let sound = try AVAudioPlayer(contentsOfURL: soundPath!, fileTypeHint:nil)
+                sound.prepareToPlay()
+                sound.play()
+            } catch {
+                //Handle the error
+            }
+        }
+        
     }
-    
+
     
     // MARK: - Navigation
 
