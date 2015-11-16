@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="itf-tt-nEB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="itf-tt-nEB">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -23,7 +23,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CuT-28-Dzg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-851" y="2"/>
+            <point key="canvasLocation" x="-453.86666666666667" y="1.8933333333333333"/>
         </scene>
         <!--Start-->
         <scene sceneID="2QF-bl-ZGU">
@@ -34,22 +34,22 @@
                         <viewControllerLayoutGuide type="bottom" id="acz-el-pK4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zxq-JU-j7L">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOx-tS-DTU">
-                                <rect key="frame" x="169" y="384" width="125" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOx-tS-DTU">
+                                <rect key="frame" x="29" y="384" width="125" height="34"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Solo">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xqp-Eu-KUx" kind="show" id="Br0-HM-cda"/>
+                                    <segue destination="xqp-Eu-KUx" kind="modal" id="Br0-HM-cda"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Challenge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CzX-m2-Oqb">
-                                <rect key="frame" x="262" y="289" width="77" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Challenge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CzX-m2-Oqb">
+                                <rect key="frame" x="122" y="289" width="77" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="4lv-nd-N7d"/>
                                     <constraint firstAttribute="width" constant="77" id="NAP-zy-4A4"/>
@@ -58,8 +58,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Npk-RO-aCz">
-                                <rect key="frame" x="169" y="318" width="263" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Npk-RO-aCz">
+                                <rect key="frame" x="29" y="318" width="263" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="Bc2-Ek-wng"/>
                                     <constraint firstAttribute="width" constant="263" id="MRl-h8-Dmf"/>
@@ -69,15 +69,15 @@
                                     <segment title="From Friends"/>
                                 </segments>
                             </segmentedControl>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" datePickerMode="countDownTimer" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="W2f-v5-Hhi">
-                                <rect key="frame" x="0.0" y="64" width="600" height="216"/>
+                            <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" datePickerMode="countDownTimer" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="W2f-v5-Hhi">
+                                <rect key="frame" x="0.0" y="64" width="320" height="216"/>
                                 <animations/>
                                 <date key="date" timeIntervalSinceReferenceDate="468787973.57973301">
                                     <!--2015-11-09 18:52:53 +0000-->
                                 </date>
                             </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFz-Wa-qdp">
-                                <rect key="frame" x="302" y="384" width="130" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFz-Wa-qdp">
+                                <rect key="frame" x="162" y="384" width="130" height="35"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -116,7 +116,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dJA-0X-jro" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-851" y="826"/>
+            <point key="canvasLocation" x="-453.86666666666667" y="781.9466666666666"/>
         </scene>
         <!--Take Photo View Controller-->
         <scene sceneID="zXF-G6-jRy">
@@ -127,15 +127,15 @@
                         <viewControllerLayoutGuide type="bottom" id="MnH-Bh-9HV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Fgt-1h-qB0">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ABl-B4-JQJ">
-                                <rect key="frame" x="0.0" y="64" width="600" height="206"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="206"/>
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qo6-OD-kBB">
-                                <rect key="frame" x="262" y="513" width="77" height="30"/>
+                                <rect key="frame" x="122" y="513" width="77" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Take photo"/>
                                 <connections>
@@ -143,11 +143,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2P-2r-lox">
-                                <rect key="frame" x="551" y="513" width="49" height="30"/>
+                                <rect key="frame" x="271" y="513" width="49" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
-                                    <segue destination="mms-sZ-T6J" kind="show" id="Hgr-aK-to5"/>
+                                    <segue destination="mms-sZ-T6J" kind="modal" id="Hgr-aK-to5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -170,7 +170,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y1Y-nK-h1c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="39" y="826"/>
+            <point key="canvasLocation" x="20.800000000000001" y="781.9466666666666"/>
         </scene>
         <!--Locked Screen View Controller-->
         <scene sceneID="e84-es-e95">
@@ -181,15 +181,15 @@
                         <viewControllerLayoutGuide type="bottom" id="6vt-Fq-EEj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3zz-0v-ft7">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Tap-512" highlightedImage="Background-color-wallpaper-7" translatesAutoresizingMaskIntoConstraints="NO" id="HFr-MR-gfa">
-                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="487"/>
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5V9-C3-rUM">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <connections>
                                     <action selector="userFailedToPhocus:" destination="coK-C8-jlq" eventType="touchUpInside" id="54t-Na-vlg"/>
                                 </connections>
@@ -210,12 +210,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="YZt-2B-Ws5" kind="show" identifier="GoToFeed" id="lsA-4c-IiC"/>
+                        <segue destination="YZt-2B-Ws5" kind="modal" identifier="GoToFeed" id="lsA-4c-IiC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ltm-YJ-v07" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1637" y="826"/>
+            <point key="canvasLocation" x="873.06666666666661" y="781.9466666666666"/>
         </scene>
         <!--Count Down View Controller-->
         <scene sceneID="JzY-PB-8eQ">
@@ -226,23 +226,13 @@
                         <viewControllerLayoutGuide type="bottom" id="XvF-Vw-O2J"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RMR-Tm-uFo">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ogz-I0-WC1">
-                                <rect key="frame" x="0.0" y="115" width="600" height="183"/>
+                                <rect key="frame" x="0.0" y="115" width="320" height="183"/>
                                 <animations/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="If you can't Phocus your friends will all see your picture" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mt8-Kt-IF7">
-                                <rect key="frame" x="0.0" y="72" width="600" height="35"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="ZQr-j6-TzP"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgU-Ww-6LC">
                                 <rect key="frame" x="275" y="306" width="49" height="63"/>
                                 <animations/>
@@ -254,7 +244,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shU-Qq-zlu">
-                                <rect key="frame" x="254" y="480" width="93" height="30"/>
+                                <rect key="frame" x="114" y="448" width="93" height="30"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -264,9 +254,19 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Fvg-3c-m9O" kind="presentation" modalTransitionStyle="flipHorizontal" id="rCk-cb-fCt"/>
+                                    <segue destination="Fvg-3c-m9O" kind="modal" modalTransitionStyle="flipHorizontal" id="rCk-cb-fCt"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="If you can't Phocus your friends will all see your picture" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mt8-Kt-IF7">
+                                <rect key="frame" x="0.0" y="72" width="320" height="35"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="ZQr-j6-TzP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -286,19 +286,19 @@
                     </view>
                     <connections>
                         <outlet property="CountdownLabel" destination="GgU-Ww-6LC" id="qWr-4i-mlH"/>
-                        <segue destination="coK-C8-jlq" kind="show" identifier="StartPhocusSession" id="JlN-0j-TlA"/>
+                        <segue destination="coK-C8-jlq" kind="modal" identifier="StartPhocusSession" id="JlN-0j-TlA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="piG-AY-6RU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="809" y="826"/>
+            <point key="canvasLocation" x="431.46666666666664" y="781.9466666666666"/>
         </scene>
         <!--Feed-->
         <scene sceneID="LMk-ZV-HEc">
             <objects>
                 <tableViewController id="YZt-2B-Ws5" customClass="FeedTableViewController" customModule="Phocus" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="KBi-Aj-ZUW">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -306,10 +306,10 @@
                             <tableViewSection headerTitle="Feed" id="6Q7-3W-pTy">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="Lyh-SF-bvo" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="113.5" width="600" height="83"/>
+                                        <rect key="frame" x="0.0" y="49.5" width="320" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Lyh-SF-bvo" id="95B-fa-Oi1">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="82.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="82.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="female" translatesAutoresizingMaskIntoConstraints="NO" id="1Nx-aE-Sbc">
@@ -341,10 +341,10 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="zeD-Q9-WRf" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="196.5" width="600" height="83"/>
+                                        <rect key="frame" x="0.0" y="132.5" width="320" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zeD-Q9-WRf" id="tgm-DP-bst">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="82.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="82.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="female" translatesAutoresizingMaskIntoConstraints="NO" id="XSA-Va-kg6">
@@ -374,10 +374,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="7kK-06-R0B" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="279.5" width="600" height="83"/>
+                                        <rect key="frame" x="0.0" y="215.5" width="320" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7kK-06-R0B" id="Ico-g2-Drb">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="82.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="82.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="female" translatesAutoresizingMaskIntoConstraints="NO" id="bMV-DS-gxV">
@@ -407,10 +407,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="Jhf-Iy-bbC" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="362.5" width="600" height="83"/>
+                                        <rect key="frame" x="0.0" y="298.5" width="320" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jhf-Iy-bbC" id="WhS-uy-zQe">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="82.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="82.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="female" translatesAutoresizingMaskIntoConstraints="NO" id="isX-wd-1zC">
@@ -440,10 +440,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="Rty-0a-MZO" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="445.5" width="600" height="83"/>
+                                        <rect key="frame" x="0.0" y="381.5" width="320" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rty-0a-MZO" id="UkG-BY-aXu">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="82.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="82.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="female" translatesAutoresizingMaskIntoConstraints="NO" id="Dx6-6P-6tN">
@@ -485,7 +485,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wKK-el-LK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="179" y="-1341"/>
+            <point key="canvasLocation" x="95.466666666666669" y="-1269.48"/>
         </scene>
         <!--Challenge-->
         <scene sceneID="o6q-ED-34M">
@@ -495,7 +495,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3lf-ql-7S9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="179" y="-618"/>
+            <point key="canvasLocation" x="95.466666666666669" y="-585.03999999999996"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="B05-AW-QWc">
@@ -520,7 +520,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S5Z-OJ-0vP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-851" y="-804"/>
+            <point key="canvasLocation" x="-453.86666666666667" y="-761.12"/>
         </scene>
     </scenes>
     <resources>
@@ -529,7 +529,7 @@
         <image name="female" width="3743" height="2807"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ezb-7Y-bRE"/>
+        <segue reference="rCk-cb-fCt"/>
         <segue reference="lsA-4c-IiC"/>
     </inferredMetricsTieBreakers>
 </document>
