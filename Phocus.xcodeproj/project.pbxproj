@@ -56,9 +56,17 @@
 		0827B2431BF6B3D500615A18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0827B2441BF6B3F800615A18 /* camera.wav */,
+				08830C9D1BFBC20F0021CA89 /* sounds */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08830C9D1BFBC20F0021CA89 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0827B2441BF6B3F800615A18 /* camera.wav */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 		08A3B2D61BF0618600E52E4A = {
