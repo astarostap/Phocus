@@ -7,12 +7,32 @@
 //
 
 import UIKit
+import AVFoundation
+import AudioToolbox
 
 class TakePhotoViewController: UIViewController {
+    
+    var ButtonAudioPlayer = AVAudioPlayer()
 
+    
+    @IBOutlet weak var PictureView: UIImageView!
+    
+    
+    @IBAction func CameraTapped(sender: UIBarButtonItem) {
+        ButtonAudioPlayer.play()
+        let image: UIImage = UIImage(named: "selfie.jpg")!
+        PictureView.image = image
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let ButtonAudioUrl = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("camera", ofType: "wav")!)
+        do {
+            try ButtonAudioPlayer = AVAudioPlayer(contentsOfURL: ButtonAudioUrl)
+        } catch {
+            
+        }
         // Do any additional setup after loading the view.
     }
 
@@ -22,12 +42,22 @@ class TakePhotoViewController: UIViewController {
     }
     
     @IBOutlet weak var imageView: UIImageView!
-
-    @IBOutlet weak var takePhotoButoon: UIButton!
     
     @IBAction func TakePhoto(sender: UIButton) {
+        var soundPath:NSURL?
+        if let path = NSBundle.mainBundle().pathForResource("camera", ofType: "wav") {
+            soundPath = NSURL(fileURLWithPath: path)
+            do {
+                let sound = try AVAudioPlayer(contentsOfURL: soundPath!, fileTypeHint:nil)
+                sound.prepareToPlay()
+                sound.play()
+            } catch {
+                //Handle the error
+            }
+        }
+        
     }
-    
+
     
     // MARK: - Navigation
 

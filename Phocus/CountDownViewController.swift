@@ -11,13 +11,16 @@ import UIKit
 class CountDownViewController: UIViewController {
 
     @IBOutlet weak var CountdownLabel: UILabel!
+    @IBOutlet weak var PictureView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupGame()
+        let image: UIImage = UIImage(named: "selfie.jpg")!
+        PictureView.image = image
     }
 
-    var seconds = 30
+    var seconds = 5
     var timer: NSTimer?
     
     func setupGame() {
