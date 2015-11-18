@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0827B2401BF6758A00615A18 /* LockedScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0827B23F1BF6758A00615A18 /* LockedScreenViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		0827B2451BF6B3F800615A18 /* camera.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0827B2441BF6B3F800615A18 /* camera.wav */; settings = {ASSET_TAGS = (); }; };
+		0827B2401BF6758A00615A18 /* LockedScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0827B23F1BF6758A00615A18 /* LockedScreenViewController.swift */; };
 		08A3B2E31BF0618600E52E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2E21BF0618600E52E4A /* AppDelegate.swift */; };
 		08A3B2E51BF0618600E52E4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2E41BF0618600E52E4A /* ViewController.swift */; };
 		08A3B2E81BF0618600E52E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A3B2E61BF0618600E52E4A /* Main.storyboard */; };
 		08A3B2EB1BF0618600E52E4A /* Phocus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2E91BF0618600E52E4A /* Phocus.xcdatamodeld */; };
 		08A3B2ED1BF0618600E52E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A3B2EC1BF0618600E52E4A /* Assets.xcassets */; };
 		08A3B2F01BF0618600E52E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A3B2EE1BF0618600E52E4A /* LaunchScreen.storyboard */; };
-		08A3B2F81BF0626600E52E4A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2F71BF0626600E52E4A /* Data.swift */; settings = {ASSET_TAGS = (); }; };
-		08A3B2FA1BF06D4A00E52E4A /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2F91BF06D4A00E52E4A /* FeedTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		08A3B2FC1BF070F400E52E4A /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2FB1BF070F400E52E4A /* FeedCell.swift */; settings = {ASSET_TAGS = (); }; };
-		08A3B2FE1BF1247600E52E4A /* StartPhocusUiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2FD1BF1247600E52E4A /* StartPhocusUiViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		08A3B3001BF12A1400E52E4A /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2FF1BF12A1400E52E4A /* TakePhotoViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		08A3B3021BF1C2CE00E52E4A /* CountDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B3011BF1C2CE00E52E4A /* CountDownViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		08A3B2F81BF0626600E52E4A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2F71BF0626600E52E4A /* Data.swift */; };
+		08A3B2FA1BF06D4A00E52E4A /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2F91BF06D4A00E52E4A /* FeedTableViewController.swift */; };
+		08A3B2FC1BF070F400E52E4A /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2FB1BF070F400E52E4A /* FeedCell.swift */; };
+		08A3B2FE1BF1247600E52E4A /* StartPhocusUiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2FD1BF1247600E52E4A /* StartPhocusUiViewController.swift */; };
+		08A3B3001BF12A1400E52E4A /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2FF1BF12A1400E52E4A /* TakePhotoViewController.swift */; };
+		08A3B3021BF1C2CE00E52E4A /* CountDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B3011BF1C2CE00E52E4A /* CountDownViewController.swift */; };
+		84D1DDBD1BFC48F200E66275 /* camera.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84D1DDBC1BFC48F200E66275 /* camera.wav */; };
+		84D1DDBF1BFC4BDC00E66275 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D1DDBE1BFC4BDC00E66275 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0827B23F1BF6758A00615A18 /* LockedScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockedScreenViewController.swift; sourceTree = "<group>"; };
-		0827B2441BF6B3F800615A18 /* camera.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = camera.wav; path = ../../../Downloads/camera.wav; sourceTree = "<group>"; };
 		08A3B2DF1BF0618600E52E4A /* Phocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A3B2E21BF0618600E52E4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08A3B2E41BF0618600E52E4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +40,8 @@
 		08A3B2FD1BF1247600E52E4A /* StartPhocusUiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartPhocusUiViewController.swift; sourceTree = "<group>"; };
 		08A3B2FF1BF12A1400E52E4A /* TakePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePhotoViewController.swift; sourceTree = "<group>"; };
 		08A3B3011BF1C2CE00E52E4A /* CountDownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountDownViewController.swift; sourceTree = "<group>"; };
+		84D1DDBC1BFC48F200E66275 /* camera.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = camera.wav; path = ../../../Downloads/camera.wav; sourceTree = "<group>"; };
+		84D1DDBE1BFC4BDC00E66275 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D1DDBF1BFC4BDC00E66275 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +67,7 @@
 		08830C9D1BFBC20F0021CA89 /* sounds */ = {
 			isa = PBXGroup;
 			children = (
-				0827B2441BF6B3F800615A18 /* camera.wav */,
+				84D1DDBC1BFC48F200E66275 /* camera.wav */,
 			);
 			name = sounds;
 			sourceTree = "<group>";
@@ -72,6 +75,7 @@
 		08A3B2D61BF0618600E52E4A = {
 			isa = PBXGroup;
 			children = (
+				84D1DDBE1BFC4BDC00E66275 /* QuartzCore.framework */,
 				08A3B2E11BF0618600E52E4A /* Phocus */,
 				08A3B2E01BF0618600E52E4A /* Products */,
 			);
@@ -168,7 +172,7 @@
 				08A3B2F01BF0618600E52E4A /* LaunchScreen.storyboard in Resources */,
 				08A3B2ED1BF0618600E52E4A /* Assets.xcassets in Resources */,
 				08A3B2E81BF0618600E52E4A /* Main.storyboard in Resources */,
-				0827B2451BF6B3F800615A18 /* camera.wav in Resources */,
+				84D1DDBD1BFC48F200E66275 /* camera.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
