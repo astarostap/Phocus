@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="itf-tt-nEB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="itf-tt-nEB">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -50,6 +50,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Challenge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CzX-m2-Oqb">
                                 <rect key="frame" x="122" y="289" width="77" height="21"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="4lv-nd-N7d"/>
                                     <constraint firstAttribute="width" constant="77" id="NAP-zy-4A4"/>
@@ -60,6 +61,7 @@
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Npk-RO-aCz">
                                 <rect key="frame" x="29" y="318" width="263" height="29"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="Bc2-Ek-wng"/>
                                     <constraint firstAttribute="width" constant="263" id="MRl-h8-Dmf"/>
@@ -90,6 +92,7 @@
                             </button>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="99O-ln-Za6">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="CGQ-wU-3lr"/>
                                 </constraints>
@@ -143,15 +146,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ABl-B4-JQJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ABl-B4-JQJ">
                                 <rect key="frame" x="0.0" y="119" width="320" height="206"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="206" id="ryf-QW-GU7"/>
                                 </constraints>
                             </imageView>
-                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cr5-QZ-71m">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cr5-QZ-71m">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <animations/>
                                 <items>
                                     <navigationItem title="Phocus" id="U3w-t7-9hW">
                                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="zkI-nZ-k7S">
@@ -162,7 +166,7 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2P-2r-lox">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2P-2r-lox">
                                 <rect key="frame" x="136" y="481" width="49" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Submit"/>
@@ -212,6 +216,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5V9-C3-rUM">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <animations/>
                                 <connections>
                                     <action selector="userFailedToPhocus:" destination="coK-C8-jlq" eventType="touchUpInside" id="54t-Na-vlg"/>
                                 </connections>
@@ -285,6 +290,7 @@
                             </label>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kbf-VP-P5S">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <animations/>
                                 <items>
                                     <navigationItem title="Phocus" id="2hT-hM-5f7"/>
                                 </items>
@@ -352,12 +358,14 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="female" translatesAutoresizingMaskIntoConstraints="NO" id="1Nx-aE-Sbc">
                                                     <rect key="frame" x="8" y="11" width="73" height="60"/>
+                                                    <animations/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="73" id="vva-Xd-adc"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Laura completed a challenge!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cth-er-cMD">
                                                     <rect key="frame" x="89" y="16" width="233" height="49"/>
+                                                    <animations/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="233" id="8vS-lk-LjH"/>
                                                     </constraints>
@@ -387,12 +395,14 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="female" translatesAutoresizingMaskIntoConstraints="NO" id="XSA-Va-kg6">
                                                     <rect key="frame" x="8" y="11" width="73" height="60"/>
+                                                    <animations/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="73" id="mJz-ui-C31"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Laura completed a challenge!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATh-Sv-swN">
                                                     <rect key="frame" x="89" y="16" width="233" height="49"/>
+                                                    <animations/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="233" id="Qrl-jD-kfK"/>
                                                     </constraints>
@@ -401,6 +411,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="XSA-Va-kg6" firstAttribute="leading" secondItem="tgm-DP-bst" secondAttribute="leadingMargin" id="6uL-aE-dNL"/>
                                                 <constraint firstItem="ATh-Sv-swN" firstAttribute="centerY" secondItem="XSA-Va-kg6" secondAttribute="centerY" id="8EG-15-FSW"/>
@@ -410,6 +421,7 @@
                                                 <constraint firstItem="XSA-Va-kg6" firstAttribute="top" secondItem="tgm-DP-bst" secondAttribute="topMargin" constant="3" id="pXt-Ds-qij"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="7kK-06-R0B" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="279.5" width="320" height="83"/>
@@ -420,12 +432,14 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="female" translatesAutoresizingMaskIntoConstraints="NO" id="bMV-DS-gxV">
                                                     <rect key="frame" x="8" y="11" width="73" height="60"/>
+                                                    <animations/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="73" id="Xm7-rt-bHE"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Laura completed a challenge!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcA-bJ-pyq">
                                                     <rect key="frame" x="89" y="16" width="233" height="49"/>
+                                                    <animations/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="233" id="O78-ke-zXU"/>
                                                     </constraints>
@@ -434,6 +448,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="bcA-bJ-pyq" firstAttribute="centerY" secondItem="Ico-g2-Drb" secondAttribute="centerY" id="0ze-xR-1cm"/>
                                                 <constraint firstItem="bMV-DS-gxV" firstAttribute="top" secondItem="Ico-g2-Drb" secondAttribute="topMargin" constant="3" id="HHN-6q-6ls"/>
@@ -443,6 +458,7 @@
                                                 <constraint firstItem="bMV-DS-gxV" firstAttribute="leading" secondItem="Ico-g2-Drb" secondAttribute="leadingMargin" id="fzs-pd-UzZ"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="Jhf-Iy-bbC" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="362.5" width="320" height="83"/>
@@ -453,12 +469,14 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="female" translatesAutoresizingMaskIntoConstraints="NO" id="isX-wd-1zC">
                                                     <rect key="frame" x="8" y="11" width="73" height="60"/>
+                                                    <animations/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="73" id="ZVC-1e-ffy"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Laura completed a challenge!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGc-b2-0cO">
                                                     <rect key="frame" x="89" y="16" width="233" height="49"/>
+                                                    <animations/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="233" id="C2q-rd-mFh"/>
                                                     </constraints>
@@ -467,6 +485,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="isX-wd-1zC" firstAttribute="top" secondItem="WhS-uy-zQe" secondAttribute="topMargin" constant="3" id="0JA-Wa-OD7"/>
                                                 <constraint firstItem="aGc-b2-0cO" firstAttribute="leading" secondItem="isX-wd-1zC" secondAttribute="trailing" constant="8" symbolic="YES" id="8Fo-R1-s8J"/>
@@ -476,6 +495,7 @@
                                                 <constraint firstItem="isX-wd-1zC" firstAttribute="leading" secondItem="WhS-uy-zQe" secondAttribute="leadingMargin" id="gvj-fu-34O"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="Rty-0a-MZO" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="445.5" width="320" height="83"/>
@@ -486,12 +506,14 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="female" translatesAutoresizingMaskIntoConstraints="NO" id="Dx6-6P-6tN">
                                                     <rect key="frame" x="8" y="11" width="73" height="60"/>
+                                                    <animations/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="73" id="fbQ-Ou-qqU"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Laura completed a challenge!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tr0-wy-Zpo">
                                                     <rect key="frame" x="89" y="16" width="233" height="49"/>
+                                                    <animations/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="233" id="bZZ-4h-QsH"/>
                                                     </constraints>
@@ -500,6 +522,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstItem="Dx6-6P-6tN" firstAttribute="top" secondItem="UkG-BY-aXu" secondAttribute="topMargin" constant="3" id="DKD-eq-INh"/>
                                                 <constraint firstItem="Dx6-6P-6tN" firstAttribute="leading" secondItem="UkG-BY-aXu" secondAttribute="leadingMargin" id="EWD-1c-D3I"/>
@@ -509,6 +532,7 @@
                                                 <constraint firstItem="tr0-wy-Zpo" firstAttribute="leading" secondItem="Dx6-6P-6tN" secondAttribute="trailing" constant="8" symbolic="YES" id="VKY-YH-4To"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <animations/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -569,6 +593,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="HdU-pJ-Eoc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
