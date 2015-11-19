@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="itf-tt-nEB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="itf-tt-nEB">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -90,7 +90,9 @@
                                     <constraint firstAttribute="height" constant="44" id="CGQ-wU-3lr"/>
                                 </constraints>
                                 <items>
-                                    <navigationItem title="Phocus" id="Bhv-I5-ivI"/>
+                                    <navigationItem title="Phocus" id="Bhv-I5-ivI">
+                                        <barButtonItem key="rightBarButtonItem" image="rsz_settings-icon" id="vZH-g1-2uR"/>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOx-tS-DTU">
@@ -578,7 +580,9 @@
                             <outlet property="delegate" destination="YZt-2B-Ws5" id="aln-bN-JU8"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Feed" id="jSs-FM-T4w"/>
+                    <navigationItem key="navigationItem" title="Feed" id="jSs-FM-T4w">
+                        <barButtonItem key="rightBarButtonItem" image="rsz_settings-icon" id="aYh-15-iRS"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wKK-el-LK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -630,7 +634,7 @@
             </objects>
             <point key="canvasLocation" x="95" y="-1270"/>
         </scene>
-        <!--Item-->
+        <!--Challenge-->
         <scene sceneID="b9k-iY-6ag">
             <objects>
                 <tableViewController id="UUz-Fm-DLz" customClass="FeedTableViewController" customModule="Phocus" customModuleProvider="target" sceneMemberID="viewController">
@@ -828,7 +832,7 @@
                             <outlet property="delegate" destination="UUz-Fm-DLz" id="3Tz-ao-cIK"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="7Fw-EQ-uQG"/>
+                    <tabBarItem key="tabBarItem" title="Challenge" id="7Fw-EQ-uQG"/>
                     <navigationItem key="navigationItem" id="bhi-je-SXI"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mu1-6z-ud7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -844,6 +848,7 @@
         <image name="man1" width="960" height="960"/>
         <image name="man2" width="1917" height="1604"/>
         <image name="manman" width="800" height="597"/>
+        <image name="rsz_settings-icon" width="25" height="25"/>
         <image name="woman1" width="602" height="445"/>
         <image name="woman2" width="3397" height="2875"/>
     </resources>

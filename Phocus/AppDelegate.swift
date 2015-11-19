@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let searchImage: UIImage = UIImage(named: "rsz_feed.png")!
         tabBarItem3.image = searchImage
 
-        let homeImage: UIImage = UIImage(named: "rsz_send.png")!
+        let homeImage: UIImage = UIImage(named: "challenge.png")!
         //tabBarItem2.image = homeImage.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
         tabBarItem1.image = homeImage
 //
