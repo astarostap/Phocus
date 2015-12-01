@@ -20,7 +20,7 @@ class TakePhotoViewController: UIViewController {
     
     @IBAction func CameraTapped(sender: UIBarButtonItem) {
         ButtonAudioPlayer.play()
-        let image: UIImage = UIImage(named: "selfie.jpg")!
+        let image: UIImage = UIImage(named: "woman_dance.jpg")!
         PictureView.image = image
     }
     
