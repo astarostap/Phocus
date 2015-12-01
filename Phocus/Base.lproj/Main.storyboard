@@ -577,6 +577,117 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="Kvs-L3-YGO" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="528.5" width="320" height="83"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Kvs-L3-YGO" id="Y9D-xy-s4D">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="82.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="woman2" translatesAutoresizingMaskIntoConstraints="NO" id="msF-mx-ILK">
+                                                    <rect key="frame" x="8" y="11" width="73" height="60"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="73" id="CC4-z0-y7i"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Laura completed a challenge!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u02-sk-PXc">
+                                                    <rect key="frame" x="89" y="16" width="233" height="49"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="233" id="yy2-BH-xlL"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstItem="u02-sk-PXc" firstAttribute="centerY" secondItem="Y9D-xy-s4D" secondAttribute="centerY" id="JnM-yk-nOp"/>
+                                                <constraint firstItem="u02-sk-PXc" firstAttribute="centerY" secondItem="msF-mx-ILK" secondAttribute="centerY" id="OgU-UG-rF4"/>
+                                                <constraint firstItem="u02-sk-PXc" firstAttribute="leading" secondItem="msF-mx-ILK" secondAttribute="trailing" constant="8" symbolic="YES" id="ZQd-zB-gr3"/>
+                                                <constraint firstItem="u02-sk-PXc" firstAttribute="top" secondItem="Y9D-xy-s4D" secondAttribute="topMargin" constant="8" id="gee-I9-MGi"/>
+                                                <constraint firstItem="msF-mx-ILK" firstAttribute="leading" secondItem="Y9D-xy-s4D" secondAttribute="leadingMargin" id="wSi-O3-1DW"/>
+                                                <constraint firstItem="msF-mx-ILK" firstAttribute="top" secondItem="Y9D-xy-s4D" secondAttribute="topMargin" constant="3" id="wde-WR-c9Q"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="JgO-io-mhp" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="611.5" width="320" height="83"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JgO-io-mhp" id="joU-gc-x1p">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="82.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="woman2" translatesAutoresizingMaskIntoConstraints="NO" id="3A2-95-6eQ">
+                                                    <rect key="frame" x="8" y="11" width="73" height="60"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="73" id="H9N-uY-lQr"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Laura completed a challenge!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yUX-p8-jeB">
+                                                    <rect key="frame" x="89" y="16" width="233" height="49"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="233" id="9BN-b1-LVv"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstItem="yUX-p8-jeB" firstAttribute="leading" secondItem="3A2-95-6eQ" secondAttribute="trailing" constant="8" symbolic="YES" id="H90-AH-dul"/>
+                                                <constraint firstItem="yUX-p8-jeB" firstAttribute="centerY" secondItem="3A2-95-6eQ" secondAttribute="centerY" id="K8a-fL-vLj"/>
+                                                <constraint firstItem="yUX-p8-jeB" firstAttribute="top" secondItem="joU-gc-x1p" secondAttribute="topMargin" constant="8" id="Ls4-VH-VSq"/>
+                                                <constraint firstItem="3A2-95-6eQ" firstAttribute="leading" secondItem="joU-gc-x1p" secondAttribute="leadingMargin" id="Lvl-1n-rGU"/>
+                                                <constraint firstItem="yUX-p8-jeB" firstAttribute="centerY" secondItem="joU-gc-x1p" secondAttribute="centerY" id="dlw-UA-1Ey"/>
+                                                <constraint firstItem="3A2-95-6eQ" firstAttribute="top" secondItem="joU-gc-x1p" secondAttribute="topMargin" constant="3" id="uie-h5-KHy"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="83" id="TFF-z5-404" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="694.5" width="320" height="83"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TFF-z5-404" id="6aS-bs-PM9">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="82.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="woman2" translatesAutoresizingMaskIntoConstraints="NO" id="gOr-9v-m84">
+                                                    <rect key="frame" x="8" y="11" width="73" height="60"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="73" id="lFU-JT-gEj"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Laura completed a challenge!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUl-Nx-1yR">
+                                                    <rect key="frame" x="89" y="16" width="233" height="49"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="233" id="qEd-b8-pcV"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstItem="gOr-9v-m84" firstAttribute="leading" secondItem="6aS-bs-PM9" secondAttribute="leadingMargin" id="ITd-2Z-AYT"/>
+                                                <constraint firstItem="iUl-Nx-1yR" firstAttribute="top" secondItem="6aS-bs-PM9" secondAttribute="topMargin" constant="8" id="RvH-8S-Flh"/>
+                                                <constraint firstItem="iUl-Nx-1yR" firstAttribute="centerY" secondItem="6aS-bs-PM9" secondAttribute="centerY" id="Wo9-Sk-IEF"/>
+                                                <constraint firstItem="iUl-Nx-1yR" firstAttribute="centerY" secondItem="gOr-9v-m84" secondAttribute="centerY" id="fW2-uZ-ino"/>
+                                                <constraint firstItem="gOr-9v-m84" firstAttribute="top" secondItem="6aS-bs-PM9" secondAttribute="topMargin" constant="3" id="sAr-Xg-4mU"/>
+                                                <constraint firstItem="iUl-Nx-1yR" firstAttribute="leading" secondItem="gOr-9v-m84" secondAttribute="trailing" constant="8" symbolic="YES" id="wGk-1U-O0r"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -854,7 +965,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="sDe-d3-sjX">
-                            <rect key="frame" x="0.0" y="305.5" width="320" height="203"/>
+                            <rect key="frame" x="0.0" y="369.5" width="320" height="203"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZu-er-9J4">
@@ -888,7 +999,7 @@
                             <tableViewSection headerTitle="Recent" id="bkU-kZ-hdn">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="50" id="S7U-fg-uHV" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="320" height="50"/>
+                                        <rect key="frame" x="0.0" y="113.5" width="320" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="S7U-fg-uHV" id="RiW-GZ-aeG">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
@@ -921,7 +1032,7 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FeedCell" rowHeight="50" id="1VI-YX-KRk" customClass="FeedCell" customModule="Phocus" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="100" width="320" height="50"/>
+                                        <rect key="frame" x="0.0" y="163.5" width="320" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1VI-YX-KRk" id="xqb-fY-XSZ">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
@@ -958,7 +1069,7 @@
                             <tableViewSection headerTitle="All Friends" id="SLv-40-R6E">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="tfI-sd-kGT">
-                                        <rect key="frame" x="0.0" y="200" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="263.5" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tfI-sd-kGT" id="Y6y-IC-5l1">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -989,7 +1100,7 @@
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="qTb-Ib-4Sj">
-                                        <rect key="frame" x="0.0" y="244" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="307.5" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qTb-Ib-4Sj" id="QTu-7S-PWf">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1151,7 +1262,7 @@
         <image name="woman_dance.jpg" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lsA-4c-IiC"/>
-        <segue reference="rCk-cb-fCt"/>
+        <segue reference="XAx-rR-YPT"/>
+        <segue reference="ezb-7Y-bRE"/>
     </inferredMetricsTieBreakers>
 </document>
