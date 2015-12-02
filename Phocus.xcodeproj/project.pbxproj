@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		080A18F51C0D48F6005208EC /* GroupPhocusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A18F41C0D48F6005208EC /* GroupPhocusTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		080A18F51C0D48F6005208EC /* GroupPhocusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A18F41C0D48F6005208EC /* GroupPhocusTableViewController.swift */; };
 		0827B2401BF6758A00615A18 /* LockedScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0827B23F1BF6758A00615A18 /* LockedScreenViewController.swift */; };
 		08A3B2E31BF0618600E52E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2E21BF0618600E52E4A /* AppDelegate.swift */; };
 		08A3B2E51BF0618600E52E4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2E41BF0618600E52E4A /* ViewController.swift */; };
