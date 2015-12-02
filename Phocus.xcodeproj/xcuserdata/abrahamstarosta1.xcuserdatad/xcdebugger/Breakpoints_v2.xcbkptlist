@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Phocus/FeedTableViewController.swift"
-            timestampString = "468746103.700539"
+            timestampString = "470776221.926209"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "FeedTableViewController"
             landmarkType = "3">
          </BreakpointContent>

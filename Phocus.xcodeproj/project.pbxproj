@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		080A18F51C0D48F6005208EC /* GroupPhocusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A18F41C0D48F6005208EC /* GroupPhocusTableViewController.swift */; };
 		0827B2401BF6758A00615A18 /* LockedScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0827B23F1BF6758A00615A18 /* LockedScreenViewController.swift */; };
+		087E34461C0F7FDF006D345C /* TakePhotoGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087E34451C0F7FDF006D345C /* TakePhotoGroupViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		08A3B2E31BF0618600E52E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2E21BF0618600E52E4A /* AppDelegate.swift */; };
 		08A3B2E51BF0618600E52E4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3B2E41BF0618600E52E4A /* ViewController.swift */; };
 		08A3B2E81BF0618600E52E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A3B2E61BF0618600E52E4A /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		080A18F41C0D48F6005208EC /* GroupPhocusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupPhocusTableViewController.swift; sourceTree = "<group>"; };
 		0827B23F1BF6758A00615A18 /* LockedScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockedScreenViewController.swift; sourceTree = "<group>"; };
+		087E34451C0F7FDF006D345C /* TakePhotoGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePhotoGroupViewController.swift; sourceTree = "<group>"; };
 		08A3B2DF1BF0618600E52E4A /* Phocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A3B2E21BF0618600E52E4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08A3B2E41BF0618600E52E4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				08A3B3011BF1C2CE00E52E4A /* CountDownViewController.swift */,
 				84D1DDC01BFD8FAB00E66275 /* SendChallengeTableViewController.swift */,
 				08A3B2FF1BF12A1400E52E4A /* TakePhotoViewController.swift */,
+				087E34451C0F7FDF006D345C /* TakePhotoGroupViewController.swift */,
 				08A3B2FD1BF1247600E52E4A /* StartPhocusUiViewController.swift */,
 				08A3B2F91BF06D4A00E52E4A /* FeedTableViewController.swift */,
 				080A18F41C0D48F6005208EC /* GroupPhocusTableViewController.swift */,
@@ -192,6 +195,7 @@
 				08A3B2EB1BF0618600E52E4A /* Phocus.xcdatamodeld in Sources */,
 				08A3B2E51BF0618600E52E4A /* ViewController.swift in Sources */,
 				08A3B2FA1BF06D4A00E52E4A /* FeedTableViewController.swift in Sources */,
+				087E34461C0F7FDF006D345C /* TakePhotoGroupViewController.swift in Sources */,
 				08A3B2E31BF0618600E52E4A /* AppDelegate.swift in Sources */,
 				0827B2401BF6758A00615A18 /* LockedScreenViewController.swift in Sources */,
 				080A18F51C0D48F6005208EC /* GroupPhocusTableViewController.swift in Sources */,

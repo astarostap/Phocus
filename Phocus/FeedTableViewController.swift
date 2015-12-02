@@ -10,6 +10,22 @@ import UIKit
 
 class FeedTableViewController: UITableViewController {
 
+    @IBAction func challengeSent(sender: UIButton) {
+        var alert: UIAlertController
+        alert = UIAlertController(
+                title: "Challenge sent to your friend",
+                message: nil,
+                preferredStyle: UIAlertControllerStyle.Alert
+            )
+        presentViewController(alert, animated: true, completion: nil)
+        let delayTime = dispatch_time(DISPATCH_TIME_NOW,
+            Int64(Double(NSEC_PER_SEC)))
+        dispatch_after(delayTime, dispatch_get_main_queue()) {
+            self.dismissViewControllerAnimated(true, completion: nil)
+        }
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
