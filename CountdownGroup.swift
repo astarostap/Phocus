@@ -20,7 +20,7 @@ class CountDownGroup: UIViewController {
         //PictureView.image = image
     }
     
-    var seconds = 10
+    var seconds = 30
     var timer: NSTimer?
     
     func setupGame() {
