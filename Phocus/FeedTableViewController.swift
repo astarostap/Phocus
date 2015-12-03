@@ -18,8 +18,9 @@ class FeedTableViewController: UITableViewController {
                 preferredStyle: UIAlertControllerStyle.Alert
             )
         presentViewController(alert, animated: true, completion: nil)
+        let nsec = Double(NSEC_PER_SEC)
         let delayTime = dispatch_time(DISPATCH_TIME_NOW,
-            Int64(Double(NSEC_PER_SEC)))
+            Int64(nsec))
         dispatch_after(delayTime, dispatch_get_main_queue()) {
             self.dismissViewControllerAnimated(true, completion: nil)
         }
