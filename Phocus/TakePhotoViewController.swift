@@ -17,11 +17,33 @@ class TakePhotoViewController: UIViewController {
     
     @IBOutlet weak var PictureView: UIImageView!
     
+    var cameraIsTapped = false
+    
+    @IBAction func StartPhocusing(sender: UIButton) {
+        if (cameraIsTapped) {
+            performSegueWithIdentifier("GoToCountDown", sender: sender)
+        } else {
+            var alert: UIAlertController
+            alert = UIAlertController(
+                    title: "You need to take picture first!",
+                    message: nil,
+                    preferredStyle: UIAlertControllerStyle.Alert
+            )
+            presentViewController(alert, animated: true, completion: nil)
+            let delayTime = dispatch_time(DISPATCH_TIME_NOW,
+                Int64(Double(NSEC_PER_SEC)))
+            dispatch_after(delayTime, dispatch_get_main_queue()) {
+                self.dismissViewControllerAnimated(true, completion: nil)
+            }
+        }
+        
+    }
     
     @IBAction func CameraTapped(sender: UIBarButtonItem) {
         ButtonAudioPlayer.play()
         let image: UIImage = UIImage(named: "selfie.jpg")!
         PictureView.image = image
+        cameraIsTapped = true
     }
     
     override func viewDidLoad() {

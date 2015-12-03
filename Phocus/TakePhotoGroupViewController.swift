@@ -20,10 +20,11 @@ class TakePhotoGroupViewController: UIViewController {
     
     @IBAction func CameraTapped(sender: UIBarButtonItem) {
         ButtonAudioPlayer.play()
-        let image: UIImage = UIImage(named: "selfie.jpg")!
+        let image: UIImage = UIImage(named: "macarena.jpg")!
         PictureView.image = image
+        let nsec: Double = 3 * Double(NSEC_PER_SEC)
         let delayTime = dispatch_time(DISPATCH_TIME_NOW,
-            Int64(Double(NSEC_PER_SEC)))
+            Int64(nsec))
         dispatch_after(delayTime, dispatch_get_main_queue()) {
             self.performSegueWithIdentifier("GoToFeed", sender: nil)
         }

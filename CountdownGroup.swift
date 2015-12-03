@@ -8,18 +8,18 @@
 
 import UIKit
 
-class CountDownViewController: UIViewController {
-
+class CountDownGroup: UIViewController {
+    
     @IBOutlet weak var CountdownLabel: UILabel!
     @IBOutlet weak var PictureView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupGame()
-        //let image: UIImage = UIImage(named: "selfie.jpg")!
+        //let image: UIImage = UIImage(named: "macarena.jpg")!
         //PictureView.image = image
     }
-
+    
     var seconds = 10
     var timer: NSTimer?
     
@@ -28,7 +28,7 @@ class CountDownViewController: UIViewController {
         timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "subtractTime", userInfo: nil, repeats: true)
         print("hello my world of Stanford in cs147")
     }
-
+    
     func subtractTime() {
         seconds -= 1
         CountdownLabel.text = "Time: " + String(seconds)
@@ -37,7 +37,7 @@ class CountDownViewController: UIViewController {
             performSegueWithIdentifier("StartPhocusSession", sender: nil)
         }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -46,10 +46,10 @@ class CountDownViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
     }
-
+    
     
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
@@ -58,5 +58,6 @@ class CountDownViewController: UIViewController {
             timer.invalidate()
         }
     }
-
+    
 }
+
